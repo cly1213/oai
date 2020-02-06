@@ -1,0 +1,377 @@
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 18, min_I0 0
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 20, min_I0 0
+[PHY]   rx_rf: rfdevice timing drift of -1 samples (ts_off 46096945)
+[PHY]   [eNB 0/0][RAPROC] Frame 224, subframe 1 Initiating RA procedure with preamble 14, energy 16.5 dB, delay 36
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00225][eNB][MOD 00][RNTI 76cf] Decoding UL CCCH 5e.97.20.3c.a9.86 (0x5649cf25f2e3)
+[RRC]   [FRAME 00225][eNB][MOD 00][RNTI 76cf] Accept new connection from UE random UE identity (0x98ca0372e9000000) MME code 0 TMSI 0 cause 3
+[MAC]   Added physicalConfigDedicated 0x7f7b840281f0 for 0.0
+[RRC]   [FRAME 00225][eNB][MOD 00][RNTI 76cf]CALLING RLC CONFIG SRB1 (rbid 1)
+add new uid is 0 76cf
+
+[PDCP]   [FRAME 00225][eNB][MOD 00][RNTI 76cf][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[RLC]   [FRAME 00225][eNB][MOD 00][RNTI 76cf] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC]   [FRAME 00225][eNB][MOD 00][RNTI 76cf][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[MAC]   generate_Msg4 ra->Msg4_frame SFN/SF: 225.6,  frameP SFN/SF: 225.6 FOR eNB_Mod: 0 
+[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 225, subframeP 6: Generating Msg4 with RRC Piggyback (RNTI 76cf)
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachRequest.c:40  EMM  - attach_request len = 90
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:46  decode_ue_network_capability len = 5
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:63  uenetworkcapability decoded UMTS
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:74  uenetworkcapability decoded GPRS
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:82  uenetworkcapability decoded=6
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:86  uenetworkcapability then decoded=6
+
+[S1AP]   [eNB 0] Build S1AP_NAS_FIRST_REQ adding in s_TMSI: GUMMEI mme_code 1 mme_group_id 4 ue 76cf
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] UE State = RRC_CONNECTED 
+[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 7) through GUMMEI MCC 466 MNC 7 MMEGI 4 MMEC 1
+[S1AP]   Found usable eNB_ue_s1ap_id: 0x2f633e 3105598(10)
+[S1AP]   GUMMEI_ID_PRESENT
+[SCTP]   Successfully sent 157 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 29 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 5, eNB_ue_s1ap_id 3105598
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 11 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 28 vtA 0 vtS 0
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[SCTP]   Successfully sent 65 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 62 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 5, eNB_ue_s1ap_id 3105598
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 44 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 29 vtA 1 vtS 1
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[SCTP]   Successfully sent 65 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 42 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 5, eNB_ue_s1ap_id 3105598
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 30 vtA 2 vtS 2
+[SCTP]   Successfully sent 56 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 196 received from port 36412, on stream 1, PPID 18
+[S1AP]   Received NAS message with the E_RAB setup procedure
+[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 5, eNB_ue_s1ap_id 3105598, nb_of_e_rabs 1
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (1607544909, 1607544909) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[RRC]   [eNB 0][UE 76cf] Selected security algorithms (0x7f7bc800ae0c): 0, 2, changed
+[RRC]   [eNB 0][UE 76cf] Saved security key D5DF6C08A8DB3B28032AF38915A12915F8AA7FB5CEDDD6D86C906D175728B9BE
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[RRC]   calling rrc_data_req :securityModeCommand
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 31 vtA 3 vtS 3
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] received securityModeComplete on UL-DCCH 1 from UE
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 32 vtA 4 vtS 4
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] received ueCapabilityInformation on UL-DCCH 1 from UE
+[RRC]   got UE capabilities for UE 76cf
+[RRC]   [do_DrxConfig] featureGroupIndicators->buf[0]: 7f
+[RRC]   [eNB 0] frame 0: requesting A2, A3, A4, and A5 event reporting
+[RRC]   RRCConnectionReconfiguration Encoded 1094 bits (137 bytes)
+[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 137, UE id 76cf)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[SCTP]   Successfully sent 232 bytes on stream 1 for assoc_id 7
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 142 Bytes,  NB SDU 6 current_sdu_index=5 next_sdu_index=6 conf 0 mui 33 vtA 5 vtS 5
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] UE State = RRC_RECONFIGURED (default DRB, xid 0)
+[RRC]   CDRX configuration activated after RRC Connection Reconfiguration Complete reception
+[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 76cf, reconfiguring DRB 1/LCID 3
+[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[MAC]   Added physicalConfigDedicated 0x7f7b840281f0 for 0.0
+[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 127.0.0.10, SIZE 4 
+[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 7
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 11 PUSCH SNR 16 PUCCH SNR 19
+[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 333.2 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 334.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 334.8 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 335.6 ULSCH in error in round 3, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 339.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 340.4 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 341.2 ULSCH in error in round 2, ul_cqi 155, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 342.0 ULSCH in error in round 3, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 15 PUCCH SNR 18
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 12 PUCCH SNR 18
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 18 PUCCH SNR 18
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 749.2 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 750.0 ULSCH in error in round 1, ul_cqi 188, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 750.8 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 751.6 ULSCH in error in round 3, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 13 PUSCH SNR 18 PUCCH SNR 18
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 781.2 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 782.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 782.8 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 783.6 ULSCH in error in round 3, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 813.2 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 814.0 ULSCH in error in round 1, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 814.8 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 815.6 ULSCH in error in round 3, ul_cqi 155, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 826.0 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 826.8 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 827.6 ULSCH in error in round 2, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 828.4 ULSCH in error in round 3, ul_cqi 151, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 845.2 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 846.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 846.8 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 847.6 ULSCH in error in round 3, ul_cqi 155, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 851.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 852.4 ULSCH in error in round 1, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 853.2 ULSCH in error in round 2, ul_cqi 161, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 854.0 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 858.0 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 858.8 ULSCH in error in round 1, ul_cqi 188, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 859.6 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 860.4 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 877.2 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 878.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 878.8 ULSCH in error in round 2, ul_cqi 152, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 879.6 ULSCH in error in round 3, ul_cqi 161, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 890.0 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 890.8 ULSCH in error in round 1, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 891.6 ULSCH in error in round 2, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 892.4 ULSCH in error in round 3, ul_cqi 161, UE_id 0, RNTI 76cf
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 13 PUCCH SNR 18
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 928.4 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 929.2 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 930.0 ULSCH in error in round 2, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 930.8 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 941.2 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 942.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 942.8 ULSCH in error in round 2, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 943.6 ULSCH in error in round 3, ul_cqi 161, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 986.0 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 986.8 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 987.6 ULSCH in error in round 2, ul_cqi 155, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 988.4 ULSCH in error in round 3, ul_cqi 155, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 992.4 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 993.2 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 994.0 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 994.8 ULSCH in error in round 3, ul_cqi 164, UE_id 0, RNTI 76cf
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 11 PUSCH SNR 16 PUCCH SNR 18
+[RRC]   UE rnti 76cf failure timer 0/8
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 18, min_I0 12
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 18 PUCCH SNR 18
+[MAC]   UE  rnti 76cf : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 15 PUCCH SNR 18
+[SCTP]   Successfully sent 69 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 22 received from port 36412, on stream 1, PPID 18
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] Logical Channel DL-DCCH, Generate RRCConnectionRelease (bytes 3)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 7 current_sdu_index=6 next_sdu_index=7 conf 0 mui 34 vtA 7 vtS 7
+[RRC]   S1AP removed entry in hashtable s1ap_id2_s1ap_ids for eNB_ue_s1ap_id 3105598
+[RRC]   S1AP removed entry in hashtable initial_id2_s1ap_ids for ue_initial_id 5
+[S1AP]   Removed UE context eNB_ue_s1ap_id 3105598
+[SCTP]   Successfully sent 21 bytes on stream 1 for assoc_id 7
+[RRC]   Removing UE 76cf instance after UE_CONTEXT_RELEASE_Complete (ue_release_timer_rrc timeout)
+[RRC]   [eNB 0] Removing UE RNTI 76cf
+[RRC]   Put UE 76cf into freeList
+[RRC]   clean_eNb_ulsch ulsch[0] UE 76cf
+[RRC]   clean_eNb_dlsch dlsch[2] UE 76cf 
+[MAC]   clean eNb uci_vars[0] UE 76cf 
+[MAC]   clean eNb uci_vars[1] UE 76cf 
+[MAC]   clean eNb uci_vars[2] UE 76cf 
+[RRC]   remove UE 76cf from ul_config_pdu_list 0/1
+[RRC]   remove UE 76cf from ul_config_pdu_list 0/1
+[MAC]   Removing UE 0 from Primary CC_id 0 (rnti 76cf)
+[MAC]   error in prev(), could not find previous to 0 in UE_list DL, should never happen, Dumping UE list
+[MAC]   error in prev(), could not find previous to 0 in UE_list UL, should never happen, Dumping UE list
+[PDCP]   remove uid is 0/0 76cf
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 76cf] Removed UE context
+[RRC]   [release_UE_in_freeList] remove UE 76cf from freeList
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 19, min_I0 0
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 19, min_I0 0
+[PHY]   [eNB 0/0][RAPROC] Frame 376, subframe 1 Initiating RA procedure with preamble 45, energy 16.7 dB, delay 24
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00377][eNB][MOD 00][RNTI 6515] Decoding UL CCCH 56.c3.68.ee.f7.76 (0x5649cf25f2e3)
+[RRC]   [FRAME 00377][eNB][MOD 00][RNTI 6515] Accept new connection from UE random UE identity (0x77ef8e366c000000) MME code 0 TMSI 0 cause 3
+[MAC]   Added physicalConfigDedicated 0x7f7b840281f0 for 0.0
+[RRC]   [FRAME 00377][eNB][MOD 00][RNTI 6515]CALLING RLC CONFIG SRB1 (rbid 1)
+add new uid is 0 6515
+
+[PDCP]   [FRAME 00377][eNB][MOD 00][RNTI 6515][SRB 01]  Action ADD  LCID 1 (SRB id 1) configured with SN size 5 bits and RLC AM
+[RLC]   [FRAME 00377][eNB][MOD 00][RNTI 6515] [SRB 1] rrc_rlc_add_rlc  SRB
+[RLC]   [FRAME 00377][eNB][MOD 00][RNTI 6515][SRB AM 01][CONFIGURE] max_retx_threshold 4 poll_pdu 4 poll_byte 65535 t_poll_retransmit 80 t_reordering 35 t_status_prohibit 0
+[MAC]   generate_Msg4 ra->Msg4_frame SFN/SF: 377.6,  frameP SFN/SF: 377.6 FOR eNB_Mod: 0 
+[MAC]   [eNB 0][RAPROC] CC_id 0 Frame 377, subframeP 6: Generating Msg4 with RRC Piggyback (RNTI 6515)
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] [RAPROC] Logical Channel UL-DCCH, processing LTE_RRCConnectionSetupComplete from UE (SRB1 Active)
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/EMM/MSG/AttachRequest.c:40  EMM  - attach_request len = 90
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:46  decode_ue_network_capability len = 5
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:63  uenetworkcapability decoded UMTS
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:74  uenetworkcapability decoded GPRS
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:82  uenetworkcapability decoded=6
+
+[NAS]    /home/leo/openairinterface5g/openair3/NAS/COMMON/IES/UeNetworkCapability.c:86  uenetworkcapability then decoded=6
+
+[S1AP]   [eNB 0] Build S1AP_NAS_FIRST_REQ adding in s_TMSI: GUMMEI mme_code 1 mme_group_id 4 ue 6515
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] UE State = RRC_CONNECTED 
+[S1AP]   [eNB 0] Chose MME '(null)' (assoc_id 7) through GUMMEI MCC 466 MNC 7 MMEGI 4 MMEC 1
+[S1AP]   Found usable eNB_ue_s1ap_id: 0x2d0d03 2952451(10)
+[S1AP]   GUMMEI_ID_PRESENT
+[SCTP]   Successfully sent 157 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 29 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 6, eNB_ue_s1ap_id 2952451
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 11 Bytes,  NB SDU 1 current_sdu_index=0 next_sdu_index=1 conf 0 mui 35 vtA 0 vtS 0
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[SCTP]   Successfully sent 65 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 62 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 6, eNB_ue_s1ap_id 2952451
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 44 Bytes,  NB SDU 2 current_sdu_index=1 next_sdu_index=2 conf 0 mui 36 vtA 1 vtS 1
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 14 PUSCH SNR 22 PUCCH SNR 13
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[SCTP]   Successfully sent 65 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 42 received from port 36412, on stream 1, PPID 18
+[RRC]   [eNB 0] Received S1AP_DOWNLINK_NAS: ue_initial_id 6, eNB_ue_s1ap_id 2952451
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 24 Bytes,  NB SDU 3 current_sdu_index=2 next_sdu_index=3 conf 0 mui 37 vtA 2 vtS 2
+[SCTP]   Successfully sent 56 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 196 received from port 36412, on stream 1, PPID 18
+[S1AP]   Received NAS message with the E_RAB setup procedure
+[RRC]   [eNB 0] Received S1AP_INITIAL_CONTEXT_SETUP_REQ: ue_initial_id 6, eNB_ue_s1ap_id 2952451, nb_of_e_rabs 1
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] rrc_eNB_process_GTPV1U_CREATE_TUNNEL_RESP tunnel (2021658997, 2021658997) bearer UE context index 0, msg index 0, id 5, gtp addr len 4 
+[RRC]   [eNB 0][UE 6515] Selected security algorithms (0x7f7bc800babc): 0, 2, changed
+[RRC]   [eNB 0][UE 6515] Saved security key 168DDD6775649FA0FB9F39221E1CB3F04B5A051CF93BD658B85B1068160CEF27
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] Logical Channel DL-DCCH, Generate SecurityModeCommand (bytes 3)
+[RRC]   calling rrc_data_req :securityModeCommand
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 4 current_sdu_index=3 next_sdu_index=4 conf 0 mui 38 vtA 3 vtS 3
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] received securityModeComplete on UL-DCCH 1 from UE
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] Logical Channel DL-DCCH, Generate UECapabilityEnquiry (bytes 3)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 5 current_sdu_index=4 next_sdu_index=5 conf 0 mui 39 vtA 4 vtS 4
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] received ueCapabilityInformation on UL-DCCH 1 from UE
+[RRC]   got UE capabilities for UE 6515
+[RRC]   [do_DrxConfig] featureGroupIndicators->buf[0]: 7f
+[RRC]   [eNB 0] frame 0: requesting A2, A3, A4, and A5 event reporting
+[RRC]   RRCConnectionReconfiguration Encoded 1094 bits (137 bytes)
+[RRC]   [eNB 0] Frame 0, Logical Channel DL-DCCH, Generate LTE_RRCConnectionReconfiguration (bytes 137, UE id 6515)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[SCTP]   Successfully sent 232 bytes on stream 1 for assoc_id 7
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 142 Bytes,  NB SDU 6 current_sdu_index=5 next_sdu_index=6 conf 0 mui 40 vtA 5 vtS 5
+[PHY]   fill_ulsch UE_id 0 nb_rb = 0
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] UE State = RRC_RECONFIGURED (default DRB, xid 2)
+[RRC]   CDRX configuration activated after RRC Connection Reconfiguration Complete reception
+[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB 02]  Action ADD  LCID 2 (SRB id 2) configured with SN size 5 bits and RLC AM
+[PDCP]   [FRAME 00000][eNB][MOD 00][RNTI 6515][DRB 01]  Action ADD  LCID 3 (DRB id 1) configured with SN size 12 bits and RLC UM
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] [SRB 2] rrc_rlc_add_rlc  SRB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 02][CONFIGURE] max_retx_threshold 32 poll_pdu 8 poll_byte 16960 t_poll_retransmit 15 t_reordering 35 t_status_prohibit 10
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] [DRB 1] rrc_rlc_add_rlc  DRB
+[RRC]   [eNB 0] Frame  0 CC 0 : SRB2 is now active
+[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE rnti 6515, reconfiguring DRB 1/LCID 3
+[RRC]   [eNB 0] Frame  0 : Logical Channel UL-DCCH, Received LTE_RRCConnectionReconfigurationComplete from UE 0, reconfiguring DRB 1/LCID 3
+[MAC]   Added physicalConfigDedicated 0x7f7b840281f0 for 0.0
+[S1AP]   initial_ctxt_resp_p: e_rab ID 5, enb_addr 127.0.0.10, SIZE 4 
+[SCTP]   Successfully sent 40 bytes on stream 1 for assoc_id 7
+[SCTP]   Successfully sent 61 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 9 PUSCH SNR 18 PUCCH SNR 31
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 579.6 ULSCH in error in round 0, ul_cqi 164, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 580.4 ULSCH in error in round 1, ul_cqi 155, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 581.2 ULSCH in error in round 2, ul_cqi 154, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 582.0 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 11 PUSCH SNR 15 PUCCH SNR 31
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 733.2 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 734.0 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 734.8 ULSCH in error in round 2, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 735.6 ULSCH in error in round 3, ul_cqi 155, UE_id 0, RNTI 6515
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 12 PUSCH SNR 18 PUCCH SNR 31
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 835.6 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 836.4 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 837.2 ULSCH in error in round 2, ul_cqi 155, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 838.0 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 893.2 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 894.0 ULSCH in error in round 1, ul_cqi 161, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 894.8 ULSCH in error in round 2, ul_cqi 152, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 895.6 ULSCH in error in round 3, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 0 PUSCH SNR 18 PUCCH SNR 31
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 10 PUSCH SNR 18 PUCCH SNR 31
+[RRC]   UE rnti 6515 failure timer 0/8
+[PHY]   prach_I0 = 0.0 dB
+[PHY]   max_I0 18, min_I0 0
+[MAC]   UE  rnti 6515 : in synch, PHR 40 dB DL CQI 10 PUSCH SNR 15 PUCCH SNR 31
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 176.4 ULSCH in error in round 0, ul_cqi 154, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 177.2 ULSCH in error in round 1, ul_cqi 164, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 178.0 ULSCH in error in round 2, ul_cqi 164, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 178.8 ULSCH in error in round 3, ul_cqi 154, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 182.8 ULSCH in error in round 0, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 183.6 ULSCH in error in round 1, ul_cqi 158, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 184.4 ULSCH in error in round 2, ul_cqi 155, UE_id 0, RNTI 6515
+[MAC]   [eNB 0][PUSCH 4] CC_id 0 185.2 ULSCH in error in round 3, ul_cqi 164, UE_id 0, RNTI 6515
+[SCTP]   Successfully sent 69 bytes on stream 1 for assoc_id 7
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
+[SCTP]   Found data for descriptor 68
+[SCTP]   [7][68] Msg of length 22 received from port 36412, on stream 1, PPID 18
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] Logical Channel DL-DCCH, Generate RRCConnectionRelease (bytes 3)
+[RRC]   sent RRC_DCCH_DATA_REQ to TASK_PDCP_ENB
+[RLC]   [FRAME 00000][eNB][MOD 00][RNTI 6515][SRB AM 01] RLC_AM_DATA_REQ size 8 Bytes,  NB SDU 7 current_sdu_index=6 next_sdu_index=7 conf 0 mui 41 vtA 6 vtS 6
+[RRC]   S1AP removed entry in hashtable s1ap_id2_s1ap_ids for eNB_ue_s1ap_id 2952451
+[RRC]   S1AP removed entry in hashtable initial_id2_s1ap_ids for ue_initial_id 6
+[S1AP]   Removed UE context eNB_ue_s1ap_id 2952451
+[SCTP]   Successfully sent 21 bytes on stream 1 for assoc_id 7
+[RRC]   Removing UE 6515 instance after UE_CONTEXT_RELEASE_Complete (ue_release_timer_rrc timeout)
+[RRC]   [eNB 0] Removing UE RNTI 6515
+[RRC]   Put UE 6515 into freeList
+[RRC]   clean_eNb_ulsch ulsch[0] UE 6515
+[RRC]   clean_eNb_dlsch dlsch[2] UE 6515 
+[MAC]   clean eNb uci_vars[0] UE 6515 
+[MAC]   clean eNb uci_vars[1] UE 6515 
+[MAC]   clean eNb uci_vars[2] UE 6515 
+[RRC]   remove UE 6515 from ul_config_pdu_list 0/1
+[RRC]   remove UE 6515 from ul_config_pdu_list 0/1
+[MAC]   Removing UE 0 from Primary CC_id 0 (rnti 6515)
+[MAC]   error in prev(), could not find previous to 0 in UE_list DL, should never happen, Dumping UE list
+[MAC]   error in prev(), could not find previous to 0 in UE_list UL, should never happen, Dumping UE list
+[PDCP]   remove uid is 0/0 6515
+[RRC]   [FRAME 00000][eNB][MOD 00][RNTI 6515] Removed UE context
+[RRC]   [release_UE_in_freeList] remove UE 6515 from freeList
+[SCTP]   Found data for descriptor 68
+[SCTP]   Received notification for sd 68, type 32777
