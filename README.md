@@ -5,7 +5,7 @@ MME file: /usr/local/etc/oai/mme.conf to update
 
 A HSS database in text is in: ~/opencells-mods/opencells_db.sql
 
-configuration:
+Configuration:
 
 /usr/local/etc/oai/spgw.conf
 
