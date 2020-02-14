@@ -1,5 +1,7 @@
 # oai_lab
 
+OAI-R14 version
+ 
 Configuration:
 
 /usr/local/etc/oai/spgw.conf
