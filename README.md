@@ -1,5 +1,5 @@
 # oai_lab
-Configuration:
+configuration:
 
 /usr/local/etc/oai/spgw.conf
 
