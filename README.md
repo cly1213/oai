@@ -32,15 +32,9 @@ echo -n | openssl s_client -showcerts -connect gitlab.eurecom.fr:443 2>/dev/null
 Download Ubuntu 18.04 64 bits version iso file
 ```shell=
 $ lsb_release -a
-No LSB modules are available.
-Distributor ID:	Ubuntu
-Description:	   Ubuntu 18.04.4 LTS
-Release:	       18.04
-Codename:	      bionic
 ```
 ```shell=
 $ uname -a
-Linux 4.18.0-17-generic
 ```
 ### Using your package manager (recommand)
 Most distributions provide UHD as part of their package management. On Debian and Ubuntu systems, this will install the base UHD library, all headers and build-specific files, as well as utilities:
